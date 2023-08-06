@@ -40,3 +40,4 @@ return output;
 }
 const text = highlightHTMLContent(html,plainText,positions)
 console.log(text)
+module.exports = highlightHTMLContent;
